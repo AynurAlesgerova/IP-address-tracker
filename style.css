@@ -1,0 +1,50 @@
+body {
+  position: relative;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: blue;
+}
+.search h1 {
+  color: white;
+  margin-top: 50px;
+}
+.search form input {
+  width: 370px;
+  height: 40px;
+  border-radius: 8px;
+}
+.search form button {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100px;
+  width: 60%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 20%;
+  border-radius: 5px;
+  z-index: 9999;
+}
+.info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
